@@ -1,6 +1,9 @@
-# darwin-plymouth
+# amiga-plymouth
 
-This an awesome, sophisticated and minimalist Plymouth Theme.
+This an awesome, sophisticated and minimalist Plymouth Theme, fork of the
+[Darwin] one but with Amiga twist.
+
+[Darwin]: https://github.com/libredeb/darwin-plymouth
 
 ## Prerequisites
 
@@ -36,14 +39,14 @@ And configure Plymouth for your graphic card, editing the file `/etc/initramfs-t
 
 Follow this instructions from a Terminal:
 
-1. Copy `darwin` folder to path `/usr/share/plymouth/themes/`:
+1. Copy `amiga` folder to path `/usr/share/plymouth/themes/`:
     ```bash
-    $ sudo cp -R darwin/ /usr/share/plymouth/themes/
+    $ sudo cp -R amiga/ /usr/share/plymouth/themes/
     ```
 
 2. Install it running these commands:
     ```bash
-    $ sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/darwin/darwin.plymouth 100
+    $ sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/amiga/amiga.plymouth 100
 
     $ sudo update-alternatives --config default.plymouth
     ```

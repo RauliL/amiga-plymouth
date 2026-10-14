@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Amiga Plymouth
+Description=A awesome, sophisticated and minimalist Plymouth with Amiga style
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/amiga
+ScriptFile=/usr/share/plymouth/themes/amiga/amiga.script
